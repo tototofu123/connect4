@@ -1,48 +1,16 @@
-# Connect4
+# connect4
 
-A Connect 4 game built with **Python** and **Pygame**, featuring an AI opponent that uses the **minimax algorithm with alpha-beta pruning**.
+Public repository maintained by @tototofu123.
 
-## Features
+## Website
 
-- Classic Connect 4 rules (6 rows × 7 columns)
-- Player vs AI
-- Difficulty levels (depth-based):
-  - Random (0)
-  - Easy (1)
-  - Medium (2)
-  - Hard (3)
-  - Very Hard (4)
-  - Expert (5)
-- Animated piece drops
-- Simple menu + game-over screen
+- GitHub Pages: https://tototofu123.github.io/connect4/
 
-## How to run
+## Security
 
-### 1) Install dependencies
+- Secret scanning workflow: ".github/workflows/security-secrets-scan.yml"
+- Gitleaks config: ".gitleaks.toml"
 
-```bash
-python -m pip install pygame
-```
+## Notes
 
-### 2) Start the game
-
-```bash
-python connect4.py
-```
-
-## Controls
-
-- Move mouse left/right to choose a column
-- Left click to drop a piece
-- Click **MAIN MENU** on the game-over screen to return to the menu
-
-## Implementation notes (connect4.py)
-
-- Game logic helpers: `create_board`, `drop_piece`, `is_valid_location`, `get_next_open_row`
-- Win detection: `winning_move` (horizontal, vertical, and both diagonals)
-- AI evaluation: `evaluate_window`, `score_position`
-- AI search: `minimax(board, depth, alpha, beta, maximizingPlayer)`
-- UI flow:
-  - `draw_menu` for difficulty selection
-  - `draw_static_board` and `animate_drop` for rendering/animation
-  - `main()` runs the application loop (`MENU` → `PLAYING` → `GAMEOVER`)
+This repository is configured with GitHub Pages (HTTPS), baseline safety checks, and tracked ignore rules.
