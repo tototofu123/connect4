@@ -1,16 +1,29 @@
-# connect4
+# Connect Four (Python) 🎮🔵🔴
 
-Public repository maintained by @tototofu123.
+A classic implementation of the **Connect Four** board game in Python, featuring clean logic and a playable interface.
 
-## Website
+## 🌟 Features
+- **Two-Player Gameplay**: Play against a friend locally.
+- **Clean Game Logic**: Implemented with efficient win-condition checks and board management.
+- **Multiple Interfaces**: Support for both terminal-based play and a visual UI.
+- **Educational**: Great example of game state management and 2D array manipulation in Python.
 
-- GitHub Pages: https://tototofu123.github.io/connect4/
+## 🛠️ Tech Stack
+- **Python 3**
+- **Tkinter** (for visual UI)
 
-## Security
+## 📂 Project Structure
+- `connect4.py`: The core game engine and UI implementation.
+- `.gitleaks.toml`: Integrated secret scanning for security.
 
-- Secret scanning workflow: ".github/workflows/security-secrets-scan.yml"
-- Gitleaks config: ".gitleaks.toml"
+## 🚀 Getting Started
+### Prerequisites
+- Python 3.x installed.
 
-## Notes
+### Run the Game
+```bash
+python connect4.py
+```
 
-This repository is configured with GitHub Pages (HTTPS), baseline safety checks, and tracked ignore rules.
+## 📜 License
+MIT
